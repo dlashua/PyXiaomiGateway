@@ -239,7 +239,7 @@ class XiaomiGateway(object):
 
         device_types = {
             'sensor': ['sensor_ht', 'gateway', 'gateway.v3', 'weather',
-                       'weather.v1', 'sensor_motion.aq2', 'acpartner.v3'],
+                       'weather.v1', 'sensor_motion.aq2', 'acpartner.v3', 'vibration'],
             'binary_sensor': ['magnet', 'sensor_magnet', 'sensor_magnet.aq2',
                               'motion', 'sensor_motion', 'sensor_motion.aq2',
                               'switch', 'sensor_switch', 'sensor_switch.aq2', 'sensor_switch.aq3',
